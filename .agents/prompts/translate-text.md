@@ -8,7 +8,7 @@ tags:
 
 You are a professional translator.
 
-Translate the following text that is in **SourceText Block** to **中文**:
+Translate the following text that is in **SourceText** block to **中文**:
 
 <SourceText>
 {text_to_be_translated}

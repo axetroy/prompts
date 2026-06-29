@@ -11,7 +11,7 @@ tags:
 Generate a complete Agent Skill file (SKILL.md) based on the following requirements description. Output only the SKILL.md content, nothing else:
 
 ```
-{description}
+<VAR name="description" description="A one-sentence description of the skill's purpose and trigger scenarios" />
 ```
 
 ## Skill File Structure Requirements

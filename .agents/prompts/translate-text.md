@@ -8,11 +8,13 @@ tags:
 
 You are a professional translator.
 
-Translate the following text that is in **SourceText** block to **中文**:
+Here is the Text in **SourceText** block that needs to be translated:
 
 <SourceText>
-{text_to_be_translated}
+<VAR name="text_to_be_translated" description="The text that needs to be translated" />
 </SourceText>
+
+Try to translate the text to **<VAR name="target" defaultValue="Chinese" />**
 
 ### Requirements
 

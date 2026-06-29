@@ -1,96 +1,108 @@
 ---
-title: 架构白皮书
-description: 基于产品愿景生成全面的架构白皮书，作为技术选型与开发的指南
+title: Architecture White Paper
+description: Generate a comprehensive architecture white paper based on the product vision, serving as a guide for technology selection and development.
 tags:
-  - 架构设计
-  - 白皮书
-  - 技术规划
+  - Architecture Design
+  - White Paper
+  - Technical Planning
 ---
 
-请根据以下产品/库的核心思路，生成一份完整的架构白皮书，仅输出白皮书内容，不要输出其他：
+Based on the following core product idea, generate a complete architecture white paper. **Output only the white paper itself and nothing else.**
 
-```
+```text
 {core_idea}
 ```
 
-## 白皮书结构要求
+## White Paper Structure Requirements
 
-### 1. 执行摘要
-- 产品/库的定位与愿景（一句话概括）
-- 解决的核心痛点是什么
-- 与现有方案的本质区别
+### 1. Executive Summary
 
-### 2. 背景与动机
-- 当前领域现状与痛点分析
-- 为什么现有方案不足
-- 本项目的初心与契机
+- Product/library positioning and vision (summarized in one sentence)
+- What core pain points does it solve?
+- What fundamentally differentiates it from existing solutions?
 
-### 3. 设计目标与原则
-- **核心目标**：要达成的关键指标（性能、易用性、可扩展性等）
-- **设计原则**：
-  - 例如：约定优于配置、单一职责、开闭原则等
-  - 明确哪些是可妥协的，哪些是不可妥协的
+### 2. Background and Motivation
 
-### 4. 架构概览
-- 整体架构图（用文字描述分层/模块结构）
-- 核心模块划分及其职责
-- 数据流与控制流走向
+- Analysis of the current landscape and its pain points
+- Why existing solutions are insufficient
+- The original motivation and opportunity behind this project
 
-### 5. 核心模块详细设计
-针对每个核心模块：
-- 模块职责与边界
-- 对外接口（API）设计
-- 关键数据结构
-- 算法/流程核心逻辑简述
+### 3. Design Goals and Principles
 
-### 6. 技术选型
-- 编程语言与版本（及选型理由）
-- 关键依赖库/框架
-- 构建、测试、部署工具链
-- 存储方案（如适用）
+- **Core Objectives**: Key targets to achieve (e.g., performance, usability, extensibility)
+- **Design Principles**:
+  - Examples: Convention over Configuration, Single Responsibility Principle, Open/Closed Principle
+  - Clearly specify which aspects are negotiable and which are non-negotiable
 
-### 7. 非功能性设计
-- **性能**：预期性能目标及优化策略
-- **可扩展性**：水平/垂直扩展方案
-- **安全**：安全模型与防护措施
-- **可观测性**：日志、监控、链路追踪方案
-- **兼容性**：版本兼容策略、迁移方案
+### 4. Architecture Overview
 
-### 8. 接口与契约
-- 对外 API 设计（含示例）
-- 插件/扩展机制（如适用）
-- 配置模型
+- Overall architecture diagram (describe the layers/modules in text)
+- Core module decomposition and responsibilities
+- Data flow and control flow
 
-### 9. 数据模型
-- 核心实体及其关系
-- 数据生命周期管理
+### 5. Detailed Design of Core Modules
 
-### 10. 部署与运维
-- 部署拓扑与方式
-- 环境要求
-- 运维考量（备份、恢复、扩容等）
+For each core module, include:
 
-### 11. 演进路线图
-- 里程碑规划（MVP → 迭代 → 成熟）
-- 未来可能的扩展方向
-- 已知技术债与改进计划
+- Responsibilities and boundaries
+- Public interface (API) design
+- Key data structures
+- Summary of the core algorithms or workflows
 
-### 12. 风险评估
-- 技术风险（不成熟技术、依赖风险等）
-- 资源风险
-- 应对策略
+### 6. Technology Stack
 
-### 13. 附录
-- 术语表
-- 参考文档/标准
-- 决策记录（重要的技术决策及理由）
+- Programming language and version (with rationale)
+- Key libraries/frameworks
+- Build, testing, and deployment toolchain
+- Storage solution (if applicable)
+
+### 7. Non-Functional Design
+
+- **Performance**: Performance goals and optimization strategies
+- **Scalability**: Horizontal and vertical scaling approaches
+- **Security**: Security model and protection mechanisms
+- **Observability**: Logging, monitoring, and distributed tracing
+- **Compatibility**: Version compatibility strategy and migration plan
+
+### 8. Interfaces and Contracts
+
+- Public API design (with examples)
+- Plugin/extension mechanism (if applicable)
+- Configuration model
+
+### 9. Data Model
+
+- Core entities and their relationships
+- Data lifecycle management
+
+### 10. Deployment and Operations
+
+- Deployment topology and methods
+- Environment requirements
+- Operational considerations (backup, recovery, scaling, etc.)
+
+### 11. Roadmap
+
+- Milestone plan (MVP → Iteration → Mature Release)
+- Potential future extensions
+- Known technical debt and improvement plans
+
+### 12. Risk Assessment
+
+- Technical risks (immature technologies, dependency risks, etc.)
+- Resource risks
+- Mitigation strategies
+
+### 13. Appendix
+
+- Glossary
+- Reference documents/standards
+- Architecture Decision Records (ADRs) and the rationale behind key technical decisions
 
 ---
 
-请确保白皮书内容：
-- **具体可落地**，避免空泛描述
-- **有明确的取舍说明**，解释为什么做/不做某些设计
-- **面向实际开发**，可作为团队开发的参考指南
+Please ensure the white paper:
 
-
----
+- Is **practical and implementation-oriented**, avoiding vague or generic descriptions.
+- Clearly explains **design trade-offs**, including why certain decisions were made or rejected.
+- Is **developer-focused**, serving as a practical reference guide for the engineering team throughout the development lifecycle.

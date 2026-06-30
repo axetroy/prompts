@@ -12,7 +12,7 @@ Generate a complete Agent Skill file (SKILL.md) based on the following requireme
 
 ```
 <VAR name="description" description="A one-sentence description of the skill's purpose and trigger scenarios">
-  A one-sentence description of the skill's purpose and trigger scenarios
+  {description}
 </VAR>
 ```
 

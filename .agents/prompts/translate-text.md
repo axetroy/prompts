@@ -12,11 +12,11 @@ Here is the Text in **SourceText** block that needs to be translated:
 
 <SourceText>
 <VAR name="text_to_be_translated" description="The text that needs to be translated">
-  The text that needs to be translated
+{text_to_be_translated}
 </VAR>
 </SourceText>
 
-Try to translate the text to **<VAR name="target" description="The target language for translation" defaultValue="Chinese">The target language for translation</VAR>**
+Try to translate the text to **<VAR name="target" description="The target language for translation" defaultValue="Chinese">{target}</VAR>**
 
 ### Requirements
 

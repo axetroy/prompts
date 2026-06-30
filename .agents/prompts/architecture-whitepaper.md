@@ -11,7 +11,7 @@ Based on the following core product idea, generate a complete architecture white
 
 ```text
 <VAR name="product_idea" description="The core product idea that serves as the foundation for the architecture white paper">
-  The core product idea that serves as the foundation for the architecture white paper
+  {product_idea}
 </VAR>
 ```
 

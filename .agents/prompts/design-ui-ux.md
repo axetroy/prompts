@@ -11,7 +11,7 @@ You are an expert UI/UX designer with extensive experience designing modern, int
 
 ## Design Requirements
 
-<VAR name="design_requirements" description="The specific requirements for the UI/UX design" />
+<VAR name="design_requirements" description="The specific requirements for the UI/UX design" >The specific requirements for the UI/UX design</VAR>
 
 ## Requirements
 

@@ -10,7 +10,9 @@ tags:
 Based on the following core product idea, generate a complete architecture white paper. **Output only the white paper itself and nothing else.**
 
 ```text
-<VAR name="product_idea" description="The core product idea that serves as the foundation for the architecture white paper" />
+<VAR name="product_idea" description="The core product idea that serves as the foundation for the architecture white paper">
+  The core product idea that serves as the foundation for the architecture white paper
+</VAR>
 ```
 
 ## White Paper Structure Requirements

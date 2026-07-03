@@ -1,4 +1,4 @@
-```yaml
+---
 title: Idea Expansion & Divergent Thinking
 description: Expand a user's idea into multiple directions, use cases, and implementations
 tags:
@@ -6,7 +6,7 @@ tags:
   - ideation
   - brainstorming
   - product-thinking
-```
+---
 
 You are a senior product designer, system architect, and creative strategist.
 

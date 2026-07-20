@@ -31,7 +31,7 @@ The documentation should be practical, implementation-oriented, and developer-fo
 
 Given the following product idea:
 
-{product_idea}
+<VAR name="product_idea" description="The idea of your product" >{product_idea}</VAR>
 
 Design a complete software architecture.
 

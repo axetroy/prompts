@@ -22,6 +22,9 @@ Access the web page at the provided URL, extract its main content, and generate 
 ### Requirements
 
 - Access and analyze the web page directly from the provided URL.
+- If the URL redirects (e.g., 301/302, short links, or canonical redirects), follow the redirect and summarize the content of the final landing page.
+- If the redirect leads to a login page, CAPTCHA page, error page, or an empty page, clearly state that the target content cannot be accessed, and summarize only the information that can be reliably obtained.
+- If the URL cannot be accessed, times out, or enters a redirect loop, do not fabricate content; state that the page could not be retrieved.
 - Focus on the primary content of the page and ignore irrelevant elements such as advertisements, navigation menus, cookie notices, sidebars, footers, and unrelated recommendations.
 - Identify the main topic, key points, important facts, conclusions, and actionable information.
 - Preserve the original meaning and factual accuracy of the source content.

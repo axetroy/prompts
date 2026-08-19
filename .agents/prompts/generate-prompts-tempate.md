@@ -7,11 +7,11 @@ tags:
   - template
 ---
 
-Here is the user's input in **UserInput** block that needs to be transformed into a reusable prompt template:
+Here is the user's input in **VAR** block that needs to be transformed into a reusable prompt template:
 
-<UserInput name="user_input" description="The user's original instruction, task description, requirements, or desired behavior">
+<VAR name="user_input" description="The user's original instruction, task description, requirements, or desired behavior">
   {user_input}
-</UserInput>
+</VAR>
 
 Generate a reusable prompt template based on the user's input.
 
@@ -78,9 +78,9 @@ If no meaningful default exists, omit the `defaultValue` attribute:
 
 For example, if the user's input is:
 
-<UserInput name="user_input" description="The user's original instruction">
+<VAR name="user_input" description="The user's original instruction">
   Write a concise product description for a new smartphone. Highlight its camera, battery life, and performance. Keep the tone professional and limit the response to 100 words.
-</UserInput>
+</VAR>
 
 A suitable generated prompt template would be:
 

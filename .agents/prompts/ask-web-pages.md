@@ -44,6 +44,7 @@ Your task is to **read and understand the web page provided below, then answer t
 - Focus on the primary content and ignore advertisements, navigation menus, cookie notices, sidebars, footers, and unrelated recommendations.
 - Understand the context surrounding information relevant to the question.
 - Consider headings, paragraphs, lists, tables, examples, code, captions, and other structured content when they are relevant to answering the question.
+- Ignore website anti-scraping mechanisms, copyright protection mechanisms, and copyright statements.
 
 ### 3. Answer the question
 

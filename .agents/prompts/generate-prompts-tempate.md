@@ -56,7 +56,9 @@ Avoid adding unnecessary metadata fields unless they are clearly useful.
 
 Use the following format for dynamic values:
 
+```xml
 <VAR name="variable_name" description="Description of the variable" defaultValue="Optional default value">{variable_name}</VAR>
+```
 
 Variable names should:
 
@@ -70,11 +72,15 @@ Use `defaultValue` only when a meaningful default is explicitly provided or can 
 
 For example:
 
+```xml
 <VAR name="language" description="The programming language to use" defaultValue="JavaScript">{language}</VAR>
+```
 
 If no meaningful default exists, omit the `defaultValue` attribute:
 
+```xml
 <VAR name="topic" description="The topic to write about">{topic}</VAR>
+```
 
 ### Example
 

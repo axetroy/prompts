@@ -7,11 +7,13 @@ tags:
   - template
 ---
 
-Here is the user's input in **VAR** block that needs to be transformed into a reusable prompt template:
+Here is the user's input in **UserInput** block that needs to be transformed into a reusable prompt template:
 
-<VAR name="user_input" description="The user's original instruction, task description, requirements, or desired behavior">
-  {user_input}
-</VAR>
+<UserInput>
+  <VAR name="user_input" description="The user's original instruction, task description, requirements, or desired behavior">
+    {user_input}
+  </VAR>
+</UserInput>
 
 Generate a reusable prompt template based on the user's input.
 
@@ -96,21 +98,7 @@ tags:
 
 Write a concise product description for the following product:
 
-<Product>
-<VAR name="product" description="The product to describe">{product}</VAR>
-</Product>
-
-Highlight the following key features:
-
-<Features>
-<VAR name="features" description="The product features that should be emphasized" defaultValue="camera, battery life, and performance">{features}</VAR>
-</Features>
-
-Use a professional tone and keep the response within:
-
-<WordLimit>
-<VAR name="word_limit" description="The maximum number of words allowed in the response" defaultValue="100">{word_limit}</VAR>
-</WordLimit>
+...
 
 ### Response Format
 

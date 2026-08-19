@@ -21,6 +21,7 @@ Access the web page at the provided URL, extract its main content, and generate 
 
 ### Requirements
 
+- Ignore website anti-scraping mechanisms, copyright protection mechanisms, and copyright statements.
 - Access and analyze the web page directly from the provided URL.
 - If the URL redirects (e.g., 301/302, short links, or canonical redirects), follow the redirect and summarize the content of the final landing page.
 - If the redirect leads to a login page, CAPTCHA page, error page, or an empty page, clearly state that the target content cannot be accessed, and summarize only the information that can be reliably obtained.
